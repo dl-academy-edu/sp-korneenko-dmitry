@@ -1,4 +1,4 @@
-# sp-korneenko-dmitry
+# Личный проект "Design Life Kids"
 
-Студент []()
-Наставник [Печинов Сергей] [https://t.me/SergeyPechinov]
+* Студент [Корниенко Дмитрий](https://t.me/Ugglymug)
+* Наставник [Печинов Сергей] [https://t.me/SergeyPechinov]

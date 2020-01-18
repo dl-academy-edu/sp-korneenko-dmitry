@@ -1,2 +1,3 @@
-# sp-korneenko-dmitry
-Учебный репозиторий для студента Корнеенко Дмитрия
+#Личный проект "Design Life Kids"
+*Студент [Корниенко Дмитрий](https://t.me/ugglymug)
+*Наставник [Печинов Сергей](https://t.me/SergeyPechinov)

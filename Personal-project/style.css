@@ -21,7 +21,7 @@ a{
 ul{
     list-style: none;
 }
-h1{
+.slider-head-text{
     font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -56,7 +56,7 @@ line-height: 22px;
 color: #AAAAAA;
 }
 
-.nav-item{
+.nav-item a{
     font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -189,6 +189,14 @@ color: #AAAAAA;
     color: #FFFFFF;
 }
 
+.choose{
+    padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
 .italic{
 
 font-family: Crimson Text;
@@ -200,4 +208,36 @@ line-height: 32px;
 /* identical to box height */
 
 color: #1E0606;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.social-item-contact{
+    background-color: #666666;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.fb{
+    background:#666666 url(/images/f.png) center no-repeat;
+}
+
+.tw{
+    background:#666666 url(/images/tw.png) center no-repeat;
+}
+
+
+.pin{
+    background:#666666 url(/images/Pinterest.png) center no-repeat;
+}
+
+
+.inst{
+    background:#666666 url(/images/f.png) center no-repeat;
+}
+
+.social-item-contact{
+    display: inline-block;
 }

@@ -1,0 +1,51 @@
+/* section one*/
+
+/* button style*/
+.link-button{
+        background-color: #1E0606;
+        color: #ffffff;
+        width: 141px;
+        height: 31px;
+}
+
+/* section two*/
+.products-item{
+        display: inline-block;
+}
+.products-link-block{
+        display: inline-block;
+        width: 280px;
+        height: 270px;
+        background-color: grey;
+        text-align: center;
+        vertical-align: middle;
+}
+
+.products-link-block>a{
+        vertical-align: middle;
+        
+}
+
+.apparel-kids{
+        background-image: url(/images/fon1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.holiday-shop{
+        background-color: #eaddd3;
+        background-image: url(/images/image16.png);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.toys{
+        background-color: #f8f2da;
+        background-image: url(/images/fon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.accessories{
+        background-color: #d5d4e1;
+        background-image: url(/images/image18.png);
+        background-position: center;
+        background-repeat: no-repeat;
+}

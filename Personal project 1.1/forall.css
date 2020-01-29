@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+a{
+        text-decoration: none;
+}
+.list-style{
+        list-style: none;
+        padding: 0;
+}
+/* header style*/
+.logo{
+        display: block;
+        width: 100px;
+        height: 52px;
+        background-image: url(/images/logo.svg);
+}
+    /* loopa */
+.link_search{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-image:url(/images/search.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translateY(7px);
+        
+}
+
+.header-nav-item{
+        display: inline-block;
+}
+    
+    
+/*footer style*/
+
+.footer-block>div{
+        display:inline-block;
+        margin-right: 50px;
+}
+
+.social-item{
+        display: inline-block;
+}
+
+.social-item>a{
+        background-color: #666666;
+}
+
+.social-link{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+}
+
+.fb{
+        background-image: url(/images/fb.png);
+}
+.tw{
+        background-image: url(/images/tw.png);
+}
+.pin{
+        background-image: url(/images/Pinterest.png);
+}
+.ins{
+        background-image: url(/images/Instagram.png);
+}
+
+.connect-block{
+        vertical-align: top;
+        
+        
+}
+
+.connect-undertext{
+        margin-top: 58px;
+}
+
+/*  Черновик  */
+    /* временный стиль формы*/
+input{
+        padding: 5px;
+        background-color: #666666;
+        border: none;
+        margin-right: -5px;
+}
+
+button{
+        border: none;
+        padding: 5px;
+        background-color: #1E0606;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-left: 0;
+}
+
+.header-block{
+    width: 1200px;
+    margin: auto;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.footer-block{
+    width: 1200px;
+    margin: auto;
+}
+footer{
+    background-color: grey;
+}
+
+/* логотип и меню навигации в одну линию*/
+.inlbl{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+

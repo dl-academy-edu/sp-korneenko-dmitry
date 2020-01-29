@@ -1,24 +1,110 @@
-/* section one*/
+ul{
+        padding: 0;
+}
+/* section one slider*/
+.slider-block{
+        width: 100%;
+        background-color: #EEE4DB;
+        position: relative;
+        
+        
+}
+.slide-image{
+        
+        
+}
+
+.slider-title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 110%;
+
+/* or 44px */
+
+        color: #1E0606;
+}
+
+.slider-text{
+        font-family: Crimson Text;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+
+        color: #1E0606;
+
+
+}
 
 /* button style*/
 .link-button{
-        background-color: #1E0606;
-        color: #ffffff;
+        display: block;
+        
         width: 141px;
         height: 31px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 30px;
+
+        /* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+        background: #1E0606;
 }
 
-/* section two*/
-.products-item{
-        display: inline-block;
+.under-slider-text{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        background: #C29974;
 }
-.products-link-block{
-        display: inline-block;
+/* section two*/
+
+.products-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        
+}
+.products-item{
+        display: block;
+        
+        padding: 0;
+        
+}
+.products-link{
+        display: block;
+        box-sizing: border-box;
+        padding-top: 110px;
         width: 280px;
         height: 270px;
         background-color: grey;
         text-align: center;
-        vertical-align: middle;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 109.7%;
+
+/* or 29px */
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
 .products-link-block>a{

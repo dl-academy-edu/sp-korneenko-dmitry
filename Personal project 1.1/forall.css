@@ -37,6 +37,10 @@ a{
         padding: 0;
 }
 /* header style*/
+.header{
+        display: flex;
+        flex-direction: row;
+}
 .logo{
         display: block;
         width: 100px;
@@ -55,6 +59,10 @@ a{
         text-transform: uppercase;
 
         color: #000000;
+}
+
+.bold{
+        font-weight: bold;
 }
 
     /* loopa */
@@ -189,9 +197,4 @@ footer{
 }
 
 /* логотип и меню навигации в одну линию*/
-.inlbl{
-    display: inline-block;
-    vertical-align: middle;
-}
-
 

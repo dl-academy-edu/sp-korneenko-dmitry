@@ -169,7 +169,7 @@ input{
         margin-right: -5px;
 }
 
-button{
+.footter-form-button{
         border: none;
         padding: 5px;
         background-color: #1E0606;

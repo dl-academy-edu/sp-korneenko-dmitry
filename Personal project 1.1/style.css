@@ -213,7 +213,11 @@ line-height: 32px;
 color: #1E0606;
 border: none;
 background-color: white;
-
+text-align: left;
+width: 326px;
+height: 55px;
+padding-left: 60px;
+margin-left: -60px;
 }
 
 .delivery-button:hover{

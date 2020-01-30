@@ -11,6 +11,8 @@
 
 */
 
+
+
 body{
         margin: 0;
         font-family: 'Open Sans', sans-serif;
@@ -180,7 +182,7 @@ input{
 
 /* page width*/
 
-.header-block{
+.header{
     width: 1180px;
     margin: auto;
 }
@@ -194,6 +196,14 @@ input{
 }
 footer{
     background-color: #434343;
+}
+
+button{
+        border: none;
+}
+
+section{
+        margin-bottom: 90px;
 }
 
 /* логотип и меню навигации в одну линию*/

@@ -67,6 +67,7 @@ a{
         font-weight: bold;
 }
 
+
     /* loopa */
 .link_search{
         display: block;
@@ -75,7 +76,7 @@ a{
         background-image:url(/images/search.svg);
         background-repeat: no-repeat;
         background-position: center;
-        transform: translateY(7px);
+        
         
 }
 

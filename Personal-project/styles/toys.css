@@ -1,0 +1,115 @@
+.toys-page-title{
+    margin-top: -69px;
+    margin-bottom: 16px;
+}
+
+
+.toys-breadcrumbs-list{
+    margin-bottom: 47px;
+}
+
+
+
+
+
+.toys-catalog-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.toys-catalog-item{
+    margin-bottom: 30px;
+}
+
+
+
+
+.toys-catalog-button{
+    position: absolute;
+    box-sizing: border-box;
+    width: 207px;
+    height: 207px;
+    opacity: 0.9;
+    margin: 82px auto;
+    background: #E5EAF8;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+
+.toys-catalog-card{
+    position: relative;
+    width: 380px;
+    height: 487px;
+    box-sizing: border-box;
+    background-image: url(/img/toys-button1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.toys-catalog-item:nth-child(2) .toys-catalog-card{
+    background-image: url(/img/toys-button2.png);
+}
+
+.toys-catalog-item:nth-child(3) .toys-catalog-card{
+    background-image: url(/img/toys-button3.png);
+}
+
+.toys-catalog-item:nth-child(4) .toys-catalog-card{
+    background-image: url(/img/toys-button4.png);
+}
+
+.toys-catalog-item:nth-child(5) .toys-catalog-card{
+    background-image: url(/img/toys-button5.png);
+}
+
+.toys-catalog-item:nth-child(6) .toys-catalog-card{
+    background-image: url(/img/toys-button6.png);
+}
+
+
+.toys-catalog-card-text{
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.catalog-card-text{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 39px;
+}
+
+.catalog-price{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.toys-pagination-menu{
+    margin-bottom: 48px;
+    margin-top: 16px;
+}

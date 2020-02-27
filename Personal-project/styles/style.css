@@ -65,7 +65,6 @@ NO VISITED HOVER VISITED*/
 
 button:hover{
     cursor: pointer;
-    opacity: 0.5s;
 }
 
 
@@ -89,9 +88,6 @@ input[type="range"]:hover{
 }
 
 
-.slider-navigation-button_active{
-    background-color: #725F5B;
-}
 
 
 label:hover{
@@ -125,16 +121,19 @@ label:hover{
 
 
 
-.category-product-button:hover{
+.category-product-link:hover{
     text-decoration: underline;
 }
 
 
 .delivery-nav-button:hover{
     background-color: rgba(112, 187, 220, 0.2);
+    font-weight: bold;
 
     
 }
+
+
 
 
 
@@ -170,12 +169,12 @@ textarea:active{
 
 
 
-.toys-catalog-button:hover{
+.toys-button:hover > .appearing-block{
     opacity: 0.9;
     transition: 0.5s;
 }
 
-.toys-catalog-button:active{
+.toys-button:active > .appearing-block{
     opacity: 0.6;
 }
 
@@ -185,6 +184,20 @@ textarea:active{
 .pagination-block button:hover{
     opacity: 0.5;
 }
+
+.partners-list a:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.partners-list a:active{
+    opacity: 0.2;
+}
+
+
+
+
+
 
 
 
@@ -196,6 +209,10 @@ textarea:active{
 .close-form-button:active{
     opacity: 0.3;
 }
+
+
+
+
 
 
 /*breadcrumbs*/
@@ -507,7 +524,7 @@ textarea:active{
     box-sizing: border-box;
     padding: 9px 15px;
     background-color: #666666;
-    border: none;
+    border: solid 3px #666666;
     line-height: 22px;
     font-family: Open Sans;
     font-style: normal;

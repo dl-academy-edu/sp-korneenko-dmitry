@@ -24,10 +24,29 @@
 }
 
 
+/*TOYS-BUTTON*/
+.toys-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 380px;
+    height: 487px;
+    box-sizing: border-box;
+    background-image: url(/img/toys-button1.png);
+    background-repeat: no-repeat;
+    background-color: initial;
+    border: none;
+}
 
 
-.toys-catalog-button{
+
+.appearing-block{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     box-sizing: border-box;
     width: 207px;
     height: 207px;
@@ -43,7 +62,7 @@
     text-align: center;
     text-transform: uppercase;
     color: black;
-    border: none;
+
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -51,45 +70,8 @@
 }
 
 
-
-.toys-catalog-card{
-    position: relative;
-    width: 380px;
-    height: 487px;
-    box-sizing: border-box;
-    background-image: url(/img/toys-button1.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    
-}
-
-.toys-catalog-item:nth-child(2) .toys-catalog-card{
-    background-image: url(/img/toys-button2.png);
-}
-
-.toys-catalog-item:nth-child(3) .toys-catalog-card{
-    background-image: url(/img/toys-button3.png);
-}
-
-.toys-catalog-item:nth-child(4) .toys-catalog-card{
-    background-image: url(/img/toys-button4.png);
-}
-
-.toys-catalog-item:nth-child(5) .toys-catalog-card{
-    background-image: url(/img/toys-button5.png);
-}
-
-.toys-catalog-item:nth-child(6) .toys-catalog-card{
-    background-image: url(/img/toys-button6.png);
-}
-
-
-.toys-catalog-card-text{
-    font-size: 14px;
-    line-height: 19px;
-}
-
 .catalog-card-text{
+    font-size: 14px;
     position: absolute;
     width: 100%;
     left: 50%;
@@ -106,6 +88,37 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
+}
+
+.toys-button:hover > .appearing-block{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.toys-button:active > .appearing-block{
+    opacity: 0.6;
+}
+/*TOYS-BUTTON*/
+
+
+.toys-button_2{
+    background-image: url(/img/toys-button2.png);
+}
+
+.toys-button_3{
+    background-image: url(/img/toys-button3.png);
+}
+
+.toys-button_4{
+    background-image: url(/img/toys-button4.png);
+}
+
+.toys-button_5{
+    background-image: url(/img/toys-button5.png);
+}
+
+.toys-button_6{
+    background-image: url(/img/toys-button6.png);
 }
 
 

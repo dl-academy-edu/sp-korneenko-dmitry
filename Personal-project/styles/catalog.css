@@ -61,10 +61,10 @@
 }
 
 .catalog-element{
-    width: 880px;
+    max-width: 880px;
     margin-right: 100px;
 }
 
 .catalog-info{
-    width: 680px;
+    max-width: 680px;
 }

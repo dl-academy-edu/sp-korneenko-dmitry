@@ -1,27 +1,34 @@
 .about-us-block{
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin-bottom: 99px;
 }
 
 .article-block{
-    width: 543px;
+    
     background: #E1F0F7;
     padding: 30px;
 }
 
 .dlk-article{
-    min-height: 236px;
+    
     background: #E1F0F7;
     margin-right: 56px;
     box-sizing: border-box;
+    padding-bottom: 34px;
     margin-bottom: 50px;
+    
+    
 }
 
 .contacts-article{
-    height: 209px;
+    
     box-sizing: border-box;
     position: relative;
+    padding-bottom: 81px;
+    margin-bottom: 24px;
+    
 }
 
 .dlk-title,
@@ -47,6 +54,7 @@
 
 .dlk-info{
     margin-top: -17px;
+    max-width: 483px;
 }
 
 .dlk-btn{
@@ -56,13 +64,18 @@
 
 .contacts-info{
     margin-top: 20px;
+    max-width: 483px;
+    margin-bottom: 20px;
+    
 }
 
 
 .map-block{
     width: 483px;
     height: 196px;
+    position: absolute;
     background-image: url(/img/map.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    
 }

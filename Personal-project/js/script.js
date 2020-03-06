@@ -13,3 +13,8 @@ modalButton.addEventListener ('click', function (evt) {
 closeModalButton.addEventListener ('click', function (evt) {
     evt.preventDefault(); showModal();
  });
+
+
+ document.addEventListener('keydown', function (e) {
+    if(e.keyCode === 27) showModal();
+  }); 

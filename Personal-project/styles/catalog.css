@@ -13,28 +13,23 @@
     margin-top: 48px;
 }
 
-
-.catalog-product-list > li:nth-child(3){
-    margin-right: 298px;
+.catalog-product-list{
+    justify-content: flex-start;
 }
 
 
-.catalog-product-list > li:nth-child(4){
-    margin-left: 200px;
-}
-
-
-.catalog-product-list > li:nth-child(6){
-    margin-right: 97px;
-}
 
 
 
 .catalog-product-item{
     margin-bottom: 6px;
+    margin-right: 21px;
 }
 
 
+.catalog-product-item:nth-child(4){
+    margin-left: 200px;
+}
 
 
 .catalog-info-title{

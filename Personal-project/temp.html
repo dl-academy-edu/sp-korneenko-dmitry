@@ -11,122 +11,40 @@
     <title>temp</title>
 </head>
 <body class="body" style="padding: 20px;">
-    <div class="radio-input-block">
-        <label class="label">
-            <input type="radio" name="qwert" class="previos-indicator hidden">
-            <span class="actual-indicator"></span>radio
-        </label>
-        <label class="label">
-            <input type="radio" name="qwert" class="previos-indicator hidden">
-            <span class="actual-indicator"></span>radio
-        </label>
-    </div>
-    <div class="checkbox-input">
-        <label class="checkbox-label">
-            <input type="checkbox" class="checkbox-input hidden">
-            <span class="checkbox-indicator"></span>
-            checkbox
-        </label>
-    </div>
-    <div class="radio-button-block">
-        <div class="radio-button">
-            <input type="radio" id="min-amount" name="amount" class="original-radio-input hidden">
-            <label for="min-amount" class="label-button">0-5</label>
-        </div>
-        <div class="radio-button">
-            <input type="radio" id="mid-amount" name="amount" class="original-radio-input hidden">
-            <label for="mid-amount" class="label-button">0-5</label>
-        </div>
-        <div class="radio-button">
-            <input type="radio" id="max-amount" name="amount" class="original-radio-input hidden">
-            <label for="max-amount" class="label-button">0-5</label>
-        </div>
-    </div>
+   
+
+<div class="rating-area__list">
     
-    <style type="text/css">
-        .toys-button{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: relative;
-            width: 380px;
-            height: 497px;
-            background-image: url(/img/toys-button1.png);
-            background-repeat: no-repeat;
-            background-color: initial;
-            border: none;
-        }
+        <input type="radio" id="star-5" name="rating" value="5">
+        <label for="star-5"></label>	
+    
+       
+        <input type="radio" id="star-4" name="rating" value="4">
+        <label for="star-4"></label>    
+
+
+        <input type="radio" id="star-3" name="rating" value="3">
+        <label for="star-3"></label>  
 
     
+        <input type="radio" id="star-2" name="rating" value="2">
+        <label for="star-2"></label>    
 
-        .appearing-block{
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-            box-sizing: border-box;
-            width: 207px;
-            height: 207px;
-            opacity: 0.9;
-            margin: 82px auto;
-            background: #E5EAF8;
-            text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 26px;
-            line-height: 29px;
-            text-align: center;
-            text-transform: uppercase;
-            color: black;
-        
-            left: 50%;
-            transform: translateX(-50%);
-            opacity: 0;
-            transition: 0.5s;
-        }
+    
+        <input type="radio" id="star-1" name="rating" value="1">
+        <label for="star-1"></label>
 
-
-        .catalog-card-text{
-            position: absolute;
-            width: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: 39px;
-        }
-
-        .catalog-price{
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -1px;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 22px;
-        }
-
-        .toys-button:hover > .appearing-block{
-            opacity: 0.9;
-            transition: 0.5s;
-        }
-
-        .toys-button:active > .appearing-block{
-            opacity: 0.6;
-        }
-
-       </style>
-    <button class="toys-button">
-        <div class="appearing-block">learn more</div>
-        <p class="catalog-card-text">SHARKY BEAN BAG CHAIR COVER</p>
-        <p class="catalog-price">$60.00 USD</p>
-    </button>
-
-
-
+</div>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
 
 

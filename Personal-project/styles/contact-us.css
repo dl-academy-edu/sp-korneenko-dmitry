@@ -171,6 +171,7 @@
 
 .modal-form{
     position: absolute;
+    max-width: 680px;
     right: 50%;
     transform: translateX(50%);
     top: 25%;

@@ -281,9 +281,7 @@ textarea:active{
     color: #1E0606;
 }
 
-.pagination-button-number{
 
-}
 
 .pagination-button-number_actual{
     color: #C29974;
@@ -466,8 +464,8 @@ textarea:active{
     align-items: center;
     flex-wrap: wrap;
     border-top: #666666 solid 1px;
-    margin-top: -2px;
-    padding-top: 9px;
+    margin-top: -4px;
+    padding-top: 22px;
 }
 
 .footer-sub-block-copyright,
@@ -491,19 +489,83 @@ textarea:active{
     display: flex;
     align-items: center;
 }
-.footer-rating-stars-list{
+
+/*STARS*/
+
+
+
+
+
+
+
+
+.rating-area__list{
     display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.rating-area__list input{
+    display: none;
 }
 
 
-.footer-rating-stars-list-item{
+.star-push{
+    display: block;
     width: 17px;
     height: 17px;
     background-image: url(/img/Star.svg);
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 3px;
+    
 }
+
+
+
+
+.star-push:hover,
+.star-push:hover ~ .star-push{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url(/img/Star2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.rating-area__list > input:checked ~ .star-push{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-image: url(/img/Star2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#C29974;
+}
+
+
+
+.rating-text{
+
+    width: 130px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    background: none;
+    margin-right: 20px;
+}
+
+.rating-text:hover{
+    text-decoration: none;
+    color: #C29974;
+}
+
 
 
 

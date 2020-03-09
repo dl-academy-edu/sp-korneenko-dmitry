@@ -23,6 +23,11 @@ ul{
 
 a{
     text-decoration: none;
+    outline: none;
+}
+
+button:focus{
+    outline: none;
 }
 
 .container{
@@ -73,24 +78,28 @@ input[type="range"]:hover{
 }
 
 
-.header a:hover{
+.header a:hover,
+.header a:focus{
     opacity: 0.5;
 }
 
 
 .header a:active{
     opacity: 0.2;
+
 }
 
 
-.slider-navigation-button:hover{
+.slider-navigation-button:hover,
+.slider-navigation-button:focus{
     background-color: #725F5B;
 }
 
 
 
 
-label:hover{
+label:hover,
+label:focus{
     cursor: pointer;
     text-decoration: underline;
 
@@ -102,7 +111,8 @@ label:hover{
     background-color: #EDDEEB;
 }
 
-.black-button:hover{
+.black-button:hover,
+.black-button:focus{
     background-color: #C29974;
     transition: 0.5s;
     cursor: pointer;
@@ -121,12 +131,14 @@ label:hover{
 
 
 
-.category-product-link:hover{
+.category-product-link:hover,
+.category-product-link:focus{
     text-decoration: underline;
 }
 
 
-.delivery-nav-button:hover{
+.delivery-nav-button:hover,
+.delivery-nav-button:focus{
     background-color: rgba(112, 187, 220, 0.2);
     font-weight: bold;
 
@@ -135,25 +147,27 @@ label:hover{
 
 
 
-
+.contact-us-form label:hover{
+    text-decoration: none;
+}
 
 input[type="text"]:hover,
-textarea:hover{
+textarea:hover,
+input[type="text"]:focus,
+textarea:focus{
     border: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 
-input[type="text"]:active,
-textarea:active{
-    border: 2px solid rgba(0, 0, 0, 0.2);
-}
 
 
 
 
 
 
-.footer a:hover{
+
+.footer a:hover,
+.footer a:focus{
     opacity: 0.5;
 }
 
@@ -162,14 +176,16 @@ textarea:active{
 }
 
 
-.blog-card-link:hover{
+.blog-card-link:hover,
+.blog-card-link:focus{
     text-decoration: underline;
 }
 
 
 
 
-.toys-button:hover > .appearing-block{
+.toys-button:hover > .appearing-block,
+.toys-button:hover > .appearing-focus{
     opacity: 0.9;
     transition: 0.5s;
 }
@@ -181,11 +197,13 @@ textarea:active{
 
 
 
-.pagination-block button:hover{
+.pagination-block button:hover,
+.pagination-block button:focus{
     opacity: 0.5;
 }
 
-.partners-list a:hover{
+.partners-list a:hover,
+.partners-list a:focus{
     opacity: 0.5;
     transition: 0.2s;
 }
@@ -201,7 +219,8 @@ textarea:active{
 
 
 
-.close-form-button:hover{
+.close-form-button:hover,
+.close-form-button:focus{
     opacity: 0.5;
 }
 
@@ -517,7 +536,7 @@ textarea:active{
     background-image: url(/img/Star.svg);
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 3px;
+    padding-right: 3px;
     
 }
 
@@ -558,7 +577,7 @@ textarea:active{
     line-height: 22px;
     color: #ffffff;
     background: none;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .rating-text:hover{

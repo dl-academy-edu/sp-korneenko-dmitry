@@ -90,7 +90,8 @@
     line-height: 22px;
 }
 
-.toys-button:hover > .appearing-block{
+.toys-button:hover > .appearing-block,
+.toys-button:focus > .appearing-block{
     opacity: 0.9;
     transition: 0.5s;
 }

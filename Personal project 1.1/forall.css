@@ -1,0 +1,211 @@
+/* fonts  big letters montserrat bold 
+    italic normal crimson text (bold)
+    button open sans bold (normal for <p>)
+    
+
+    font-family: 'Crimson Text', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+body{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    
+}
+h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 51px;
+
+        /* identical to box height */
+        text-transform: uppercase;
+
+        color: #1E0606;
+}
+a{
+        text-decoration: none;
+}
+.list-style{
+        list-style: none;
+        padding: 0;
+}
+/* header style*/
+.header{
+        display: flex;
+        flex-direction: row;
+}
+.logo{
+        display: block;
+        width: 100px;
+        height: 52px;
+        background-image: url(/images/logo.svg);
+}
+/* nav font*/
+.header-nav-link{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        color: #000000;
+}
+
+.bold{
+        font-weight: bold;
+}
+
+
+    /* loopa */
+.link_search{
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-image:url(/images/search.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        
+}
+
+.header-nav-item{
+        display: inline-block;
+}
+    
+    
+/*footer style*/
+.footer-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+}
+.footer-block>div{
+        display:inline-block;
+        margin-right: 50px;
+        
+}
+
+
+/*белые буквы*/
+.footer-block>div,.footer-block a{
+        font-family: Open Sans;
+        color: #ffffff;    
+}
+
+
+.social-item{
+        display: inline-block;
+}
+
+
+.social-link{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        background-color: #666666;
+}
+
+.fb{
+        background-image: url(/images/f.svg);
+        
+}        
+
+.tw{
+        background-image: url(/images/tw.svg);
+}
+.pin{
+        background-image: url(/images/Pinterest.svg);
+}
+.ins{
+        background-image: url(/images/Instagram.svg);
+}
+
+.connect-block{
+        vertical-align: top;
+        
+        
+}
+
+.connect{
+        margin-top: 70px;
+}
+
+footer h3{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        
+        /* identical to box height */
+        
+        color: #AAAAAA; 
+        
+}
+
+.undertext{
+        color: #AAAAAA;  
+        
+}
+/*  Черновик  */
+    /* временный стиль формы*/
+input{
+        padding: 5px;
+        background-color: #666666;
+        border: none;
+        margin-right: -5px;
+}
+
+.footter-form-button{
+        border: none;
+        padding: 5px;
+        background-color: #1E0606;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-left: 0;
+}
+
+/* page width*/
+
+.header{
+    width: 1180px;
+    margin: auto;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.footer-block{
+    width: 1180px;
+    margin: auto;
+}
+footer{
+    background-color: #434343;
+}
+
+button{
+        border: none;
+}
+
+section{
+        margin-bottom: 90px;
+}
+
+/* логотип и меню навигации в одну линию*/
+

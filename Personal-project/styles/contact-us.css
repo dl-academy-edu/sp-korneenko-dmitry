@@ -84,6 +84,12 @@
     
 }
 
+.form-checkbox{
+    position: absolute;
+    opacity: 0;
+
+}
+
 .form-checkbox_newstyle{
     position: relative;
     margin-right: 34px;
@@ -117,6 +123,10 @@
     top: 50%;
     transform: translateY(-50%);
 
+}
+
+.form-checkbox:focus + .form-checkbox_newstyle::before{
+    border: 3px solid #C29974;
 }
 
 .form-button{
@@ -193,6 +203,18 @@
 
 }
 
+
+.form-checkbox{
+    position: absolute;
+    opacity: 0;
+
+}
+
+
 .form-checkbox:checked + .modal-form-checkbox_newstyle::after{
     background-color: initial;
+}
+
+.form-checkbox:focus + .form-checkbox_newstyle::before{
+    border: 3px solid #C29974;
 }
